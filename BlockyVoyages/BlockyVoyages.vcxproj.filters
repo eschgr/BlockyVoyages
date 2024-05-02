@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{b00dbc6f-d6fb-4c88-a3f7-2ecd5a857c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{7c57c38b-0b91-4024-bbed-c33d0a772950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{500e55d1-f48c-46d4-bf96-6f3bab4da020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugability">
+      <UniqueIdentifier>{f97abb47-4a44-4bfe-8ea6-33a5de2c9745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{91fbe627-971c-4096-866d-3797d30575ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\gl">
+      <UniqueIdentifier>{13cb2b40-d238-4e7c-90d0-3cbc3acca458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{842701d1-390c-4da7-bfe0-acda3ba58d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{3509afb7-30f3-4984-8b0e-20bf2ed755f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\Voronoi">
+      <UniqueIdentifier>{ebd1b9dd-04ca-4863-8a0c-2b86a8714e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Biome">
+      <UniqueIdentifier>{7d7f3246-0498-4689-8000-62e2af6e2042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Biome\BiomeTypes">
+      <UniqueIdentifier>{5babfbf3-2ef0-4c98-b572-73c49b1c1721}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="World\WorldGenerator.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Map.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix22.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix33.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix44.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MatrixMN.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\VectorN.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Camera.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\PerspectiveCamera.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\OpenGL.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SimplexNoise.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathMain.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FontManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Font.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugability\PerfMon.h">
+      <Filter>Debugability</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Controller.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\CameraController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Character.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\CharacterController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugability\Timer.h">
+      <Filter>Debugability</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugability\Logger.h">
+      <Filter>Debugability</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexArrayObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Edge.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Node.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\AABB.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Circle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Cell.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Voronoi\Arc.h">
+      <Filter>Graph\Voronoi</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Voronoi\Voronoi.h">
+      <Filter>Graph\Voronoi</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Voronoi\VoronoiCell.h">
+      <Filter>Graph\Voronoi</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph\Voronoi\VoronoiEdge.h">
+      <Filter>Graph\Voronoi</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Segment.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SparseMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeEdge.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeFactory.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeMap.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeNode.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeRegion.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\DesertBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\Biome.h">
+      <Filter>World\Biome</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\DeepOceanBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\OceanBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\IceBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\SnowBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\BorealBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\GrasslandBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\TemperateBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\SwampBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\RainForestBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\SavannaBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Biome\BiomeTypes\ScorchedBiome.h">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PNGReader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextureArray.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\gl\glcorearb.h">
+      <Filter>Graphics\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\gl\glExt.h">
+      <Filter>Graphics\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\gl\wglext.h">
+      <Filter>Graphics\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="World\BlockTypes.h">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlockyVoyages.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\OpenGL.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Map.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathTools.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Camera.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\PerspectiveCamera.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\VertexBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World\WorldGenerator.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SimplexNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FontManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Font.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugability\PerfMon.cpp">
+      <Filter>Debugability</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\CameraController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\CharacterController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Character.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugability\Timer.cpp">
+      <Filter>Debugability</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugability\Logger.cpp">
+      <Filter>Debugability</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\VertexArrayObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Edge.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\AABB.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Circle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Voronoi\Arc.cpp">
+      <Filter>Graph\Voronoi</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Voronoi\Voronoi.cpp">
+      <Filter>Graph\Voronoi</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Voronoi\VoronoiCell.cpp">
+      <Filter>Graph\Voronoi</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Voronoi\VoronoiEdge.cpp">
+      <Filter>Graph\Voronoi</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Segment.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph\Cell.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SparseMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeEdge.cpp">
+      <Filter>World\Biome</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeFactory.cpp">
+      <Filter>World\Biome</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeMap.cpp">
+      <Filter>World\Biome</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeNode.cpp">
+      <Filter>World\Biome</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeRegion.cpp">
+      <Filter>World\Biome</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\DeepOceanBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\OceanBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\DesertBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\IceBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\SnowBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\BorealBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\GrasslandBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\TemperateBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\SwampBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\RainForestBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\SavannaBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Biome\BiomeTypes\ScorchedBiome.cpp">
+      <Filter>World\Biome\BiomeTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PNGReader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextureArray.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BlockyVoyages.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BlockyVoyages.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
